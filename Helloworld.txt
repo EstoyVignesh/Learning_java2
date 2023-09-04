@@ -1,0 +1,6 @@
+In this file we are gonna discuss how git works.
+
+Git has Thrte thases
+1. Working
+2.Local
+3.Remote
