@@ -4,3 +4,5 @@ Git has Thrte thases
 1. Working
 2.Local
 3.Remote
+
+these will be the all for toda's topic
