@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>learn_java</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Git_documentation.docx</name>
+			<type>1</type>
+			<location>C:/Users/arvin/Downloads/Telegram Desktop/Book PDF&apos;s/Guvi Pdf&apos;s/Git and GitHub (1).docx</location>
+		</link>
+	</linkedResources>
+</projectDescription>
