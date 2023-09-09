@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Git_documentation.docx</name>
-			<type>1</type>
-			<location>C:/Users/arvin/Downloads/Telegram Desktop/Book PDF&apos;s/Guvi Pdf&apos;s/Git and GitHub (1).docx</location>
-		</link>
-	</linkedResources>
 </projectDescription>
