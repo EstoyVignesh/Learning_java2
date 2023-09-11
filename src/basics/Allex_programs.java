@@ -255,7 +255,35 @@ public class Allex_programs {
 		
 	//	=====================================================          ++++         ===============================================
 	  
-				
+			
+		
+		//input for the program
+		
+		
+/*		int factorialNumber=35;
+		
+		long factResult=1;
+		
+		for(int i=1; i<=factorialNumber;i++)
+		{
+			factResult= factResult*i;
+			
+			//factResult=1
+			//factResult=1*2=2
+			//factResult=2*3=6
+			//factResult=6*4=24
+			//factResult=24*5=120
+		}
+		System.out.println("The factorial value for the given number is "+factResult);
+		
+		
+		
+		*/
+		
+		
+//=====================         ============================            ===========================		
+		
+		
 				//  Relational Operators 
 		
 				
@@ -273,9 +301,109 @@ public class Allex_programs {
 				
 //				===============         ========================             =====================
 
-				
-
+/*
+ 
+ 	
+		int num1=5;
+		num1+=5; //num1+=5--> num1=num1+5=10
+		System.out.println("The assignment operation value for addition is "+num1);
 		
+		int num2=5;
+		num2-=2; //num2=num2-2=3
+		System.out.println("The assignment operation value for substraction is "+num2);
+
+		int num3=6;
+		num3*=10; //num3=num3*10=60
+		System.out.println("The assignment operation value for multiplication is "+num3);
+
+		int num4=10;
+		num4/=2; //num4=num4/2=5
+		System.out.println("The assignment operation value for division is "+num4);
+		
+		int num5=5;
+		num5%=5; //num5=num5%5=0
+		System.out.println("The assignment operation value for modulo is "+num5);
+		
+		
+		*/
+
+//==========================================================================
+
+	/*
+	 	
+	
+		//logical ANd =&&
+		//logical OR = ||
+		
+		int num1=10, num2=20, num3=30;
+		boolean retVal=false;
+		
+		if( (num1<num2) && (num2>num1) )
+		{
+			retVal=true;
+			System.out.println("AND Condition "+retVal);
+		}
+		 if( (num1<num2) && (num2<num1) )
+		{
+			retVal=true;
+			System.out.println("AND Condition "+retVal);
+		}
+		 if ((num1<num2) || (num3<num1))
+		{
+			retVal=true;
+			System.out.println("OR Condition "+retVal);
+		}
+		
+		
+		*/
+		
+//==========================         ==================================        ==========================
+	// Statements
+		
+		//Break Statement
+/*          
+ 
+ 		
+ 		for(int i=1;i<=10;i++)
+		{
+			if(i==5)
+			{
+				break;
+			}
+			
+			System.out.println(i);
+		}
+
+	
+	
+	                    */
+	                    
+//=========================================================
+
+	
+	//continue statement will skip the current iteration and proceed to the next iteration based on the condition
+
+	
+		// TODO Auto-generated method stub
+/*		for (int i=1; i<=10;i++)
+		{
+			
+			if (i==5)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+
+                                             */
+		
+		
+//		================   =======================================     ===============================
+				
+				
+				
+		
+
 		
 		
 		
