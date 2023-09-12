@@ -1,0 +1,6 @@
+Project --> should start with lowercase
+Class-> should start with Uppercase
+Variables--> should follow camelCasing convention (cC)
+			Eg: long factorialNumber, employeeNumber, employeeName, employeeAge
+Methods--> should follow camelCasing convention(cC)
+			Eg:factorialCalculation(), additionOfTwoNos(), substractionOfTwoNos()
