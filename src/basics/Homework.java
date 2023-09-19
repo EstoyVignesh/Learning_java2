@@ -69,7 +69,7 @@ public class Homework {
 		*/
 		
 		// Checking Prime Number
-		
+	/*	
 
 			    int num = 29;
 			    boolean flag = false;
@@ -85,6 +85,82 @@ public class Homework {
 			      System.out.println(num + " is a prime number.");
 			    else
 			      System.out.println(num + " is not a prime number.");
+		
+		*/
+		
+		
+		String[] name = new String[4];
+		name[0]="Today";
+		name[1]="Tomorrow";
+		name[2]="Day After Tomorrow";
+		name[3]="Future";
+		System.out.println("The VAlue of the name is "+name[1]);
+		
+		//Second
+		
+		double[] no = {2.2,3.6,8.2};
+		System.out.println(no.length);
+		
+		//Array for all data types
+		
+		int[] number= {0,1,2};
+		
+		
+		long[] bignum= {1000,2000,5000};
+		
+		
+		
+		
+		short[] small= {10,20,30};
+		
+		
+		
+		char[] nil= {'w','d','w','q'};
+		
+		
+		String[] names= {"Sun","Star","Moon"};
+		
+		double[] dot= {1.111,3.22,5.12};
+		
+		System.out.println(number);
+		System.out.println(bignum);
+		System.out.println(small);
+		System.out.println(nil);
+		System.out.println(names);
+		System.out.println(dot);
+		
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
