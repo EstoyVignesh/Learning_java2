@@ -210,8 +210,9 @@ public class Allex_programs {
 					do
 					{
 						System.out.println("The value of i is "+i);
-						i++; //i=i+1
-					}while(i<10);
+						i++; //i=i+1	
+		                int num=10;
+	 					}while(i<10);
 
 			
 		                                */
@@ -255,7 +256,35 @@ public class Allex_programs {
 		
 	//	=====================================================          ++++         ===============================================
 	  
-				
+			
+		
+		//input for the program
+		
+		
+/*		int factorialNumber=35;
+		
+		long factResult=1;
+		
+		for(int i=1; i<=factorialNumber;i++)
+		{
+			factResult= factResult*i;
+			
+			//factResult=1
+			//factResult=1*2=2
+			//factResult=2*3=6
+			//factResult=6*4=24
+			//factResult=24*5=120
+		}
+		System.out.println("The factorial value for the given number is "+factResult);
+		
+		
+		
+		*/
+		
+		
+//=====================         ============================            ===========================		
+		
+		
 				//  Relational Operators 
 		
 				
@@ -273,9 +302,148 @@ public class Allex_programs {
 				
 //				===============         ========================             =====================
 
+/*
+ 
+ 	
+		int num1=5;
+		num1+=5; //num1+=5--> num1=num1+5=10
+		System.out.println("The assignment operation value for addition is "+num1);
+		
+		int num2=5;
+		num2-=2; //num2=num2-2=3
+		System.out.println("The assignment operation value for substraction is "+num2);
+
+		int num3=6;
+		num3*=10; //num3=num3*10=60
+		System.out.println("The assignment operation value for multiplication is "+num3);
+
+		int num4=10;
+		num4/=2; //num4=num4/2=5
+		System.out.println("The assignment operation value for division is "+num4);
+		
+		int num5=5;
+		num5%=5; //num5=num5%5=0
+		System.out.println("The assignment operation value for modulo is "+num5);
+		
+		
+		*/
+
+//==========================================================================
+
+	/*
+	 	
+	
+		//logical ANd =&&
+		//logical OR = ||
+		
+		int num1=10, num2=20, num3=30;
+		boolean retVal=false;
+		
+		if( (num1<num2) && (num2>num1) )
+		{
+			retVal=true;
+			System.out.println("AND Condition "+retVal);
+		}
+		 if( (num1<num2) && (num2<num1) )
+		{
+			retVal=true;
+			System.out.println("AND Condition "+retVal);
+		}
+		 if ((num1<num2) || (num3<num1))
+		{
+			retVal=true;
+			System.out.println("OR Condition "+retVal);
+		}
+		
+		
+		*/
+		
+//==========================         ==================================        ==========================
+	// Statements
+		
+		//Break Statement
+/*          
+ 
+ 		
+ 		for(int i=1;i<=10;i++)
+		{
+			if(i==5)
+			{
+				break;
+			}
+			
+			System.out.println(i);
+		}
+
+	
+	
+	                    */
+	                    
+//=========================================================
+
+	
+	//continue statement will skip the current iteration and proceed to the next iteration based on the condition
+
+	
+		// TODO Auto-generated method stub
+/*		for (int i=1; i<=10;i++)
+		{
+			
+			if (i==5)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+
+                                             */
+		
+		
+//		================   =======================================     ===============================
 				
+				
+		
+		//Array is used to store multiple values of same data type in contiguous memory. Array index or subscript will start from 0
+		
+		//first way of creating an array
+		int[] num1; //Array declaration
+		num1= new int[5]; //Array initialization
+		
+		int[] num2= new int[5]; //will store 5 integer values
+		
+		num2[0] = 10;
+		num2[1]=20;
+		num2[2]=30;
+		num2[3]=40;
+		num2[4]=50;
+		
+		System.out.println(num2[3]);
+		//System.out.println(num2[5]); It will throw Array Index Out of bound exception
+		
+		System.out.println("Length of the array is "+num2.length);
+		
+		
+		//iterate over an array
+		for(int i=0;i<num2.length;i++)
+		{
+			System.out.println("Array values are-->"+num2[i]);
+		}
+		
+		//second way of creating an array
+		int[] num3= {100,200,300};
+		
+		System.out.println("Length of the array is "+num3.length);
+		
+		//third way
+		int num4[]=new int[4];
+		int num5[]= {200,400};
+		
 
 		
+		
+			
+		
+
 		
 		
 		
