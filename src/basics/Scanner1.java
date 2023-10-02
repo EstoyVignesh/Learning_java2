@@ -14,7 +14,7 @@ int a = obj.nextInt();
 int b = obj.nextInt();
 int c = obj.nextInt();
 int d = obj.nextInt();
-if(a+b> c+d) {
+if((a+b)>(c+d)) {
 	System.out.println("a+b is Greater");
 	
 }else
