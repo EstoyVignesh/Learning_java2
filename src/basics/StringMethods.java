@@ -18,6 +18,7 @@ public class StringMethods {
 		System.out.println(strr+"-->"+strr1+"-->"+strr2+"-->"+str4);
 		
 		
+		
 		/// String Methods
 		//String is immutable in Java which means that once a value is assigned to the String variable/object, it cant be changed. 
 		//If you change the value, store it in a new variable or object
@@ -39,7 +40,7 @@ public class StringMethods {
 		System.out.println("Replace-->"+str5);
 		
 		String str6= str.replace("is", "was");
-		System.out.println("Replace-->"+str6);
+		System.out.println("Replace for str 6-->"+str6);
 		
 		boolean value=str.contains("is");
 		System.out.println("contains-->"+value);
@@ -59,9 +60,11 @@ public class StringMethods {
 		
 		System.out.println("Length-->"+s1.length());
 		
+		System.out.println("======================");
 		
+		System.out.println("The value of str is : "+ str);
 		String str7=str.substring(5, 10);
-		System.out.println("Sub string-->"+str7);
+		System.out.println("Sub string for str 7 -->"+str7);
 		
 		String str8=str.substring(5);
 		System.out.println("Sub string-->"+str8);

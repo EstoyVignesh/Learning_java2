@@ -12,7 +12,7 @@ public class Arrays {
 		num[2]=200;
 		num[3]=250;
 		
-		System.out.println("The Value of num is "+num[2]);
+		System.out.println("The Value of num is "+num);
 		
 		
 		// Second Method
@@ -23,7 +23,7 @@ public class Arrays {
 		
 		int num2[]= new int[4];
 		int num3[]= {1,2,3,4,5};
-		System.out.println("THe value is "+num3);
+		System.out.println("THe value of num3 is "+num3[3]);
 	}
 
 }

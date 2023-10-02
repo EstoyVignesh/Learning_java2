@@ -1,4 +1,4 @@
-package basics;
+ package basics;
 
 public class Homework1 {
 
@@ -17,6 +17,11 @@ public class Homework1 {
 		for(int i = 0;i<str.length();i++) {
 			
 			 revStr = str.charAt(i)+ revStr ;
+			 //revStr=a
+			 //revStr=n+a=na
+			 //revStr=n+na=nna
+			 //revStr=a+nna=anna
+			 
 	    }
 	    
 	    System.out.println("Reversed string: "+ revStr);
