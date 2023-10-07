@@ -59,7 +59,7 @@ public class HashMapEx1 {
 		System.out.println("The Entries of hs1 is : "+hs1);
 		
 		hs1 =(HashMap) hs.clone();
-		System.out.println("The Entries of hs1 is : "+hs1);
+		System.out.println("The Entries cloned hs1 is : "+hs1);
 		
 		System.out.println("================= : ");
 		
@@ -74,9 +74,9 @@ public class HashMapEx1 {
 			
 		}
 		
-		for(Map.Entry<Object,Object> et :hs.entrySet()) {
+	/*	for(Map.Entry<Object,Object> et :hs.entrySet()) {
 			System.out.println();
-		}
+		}*/
 		
 		
 			
