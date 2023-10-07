@@ -83,8 +83,12 @@ public class HashMapEx {
 			// 1 entry--> 1k, 1 v
 			System.out.println(eachEntry.getKey());
 			System.out.println(eachEntry.getValue());
+			
+
 		}
-		
+
+		//Size of Key-Value
+		  System.out.println("Size of the hash map: "+hm.size());
 		
 		
 

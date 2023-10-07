@@ -17,7 +17,13 @@ public class RemoveLettersfromString {
 		
 		}
 		
-		System.out.println(set);
+		StringBuffer sb = new StringBuffer();
+		for(Character c : set) {
+			
+			sb.append(c);
+		}
+		
+		System.out.println(sb);
 		
 	}
 
