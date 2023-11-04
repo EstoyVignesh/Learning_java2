@@ -46,22 +46,22 @@ Actions act = new Actions(driver);
 		driver.findElement(By.name("lastname")).sendKeys("Palanisamy");
 		
 		driver.findElement(By.name("reg_email__")).sendKeys("vigneshpalanisamy1969@gmail.com");
-		driver.findElement(By.name("reg_email_confirmation__")).sendKeys("vigneshpalanisamy1969@gmail.com");
-		driver.findElement(By.name("reg_passwd__")).sendKeys("@Yonko4");
+		driver.findElement(By.name("reg_email_confirmation__")).sendKeys("vigneshfacebook@gmail.com");
+		driver.findElement(By.name("reg_passwd__")).sendKeys("@Yonko44");
 		
 		Select sel = new Select(driver.findElement(By.name("birthday_day")));
 		
-		sel.selectByIndex(5);
+		sel.selectByIndex(15);
 		Thread.sleep(2000);
 		
 Select sel1 = new Select(driver.findElement(By.name("birthday_month")));
 		
-		sel1.selectByIndex(9);
+		sel1.selectByIndex(5);
 		Thread.sleep(2000);
 		
 Select sel2 = new Select(driver.findElement(By.name("birthday_year")));
 		
-		sel2.selectByIndex(25);
+		sel2.selectByIndex(15);
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//input[@value='2']")).click();
