@@ -39,7 +39,7 @@ static WebDriver driver = null;
 		driver.switchTo().frame("loginIframe");
 		Thread.sleep(2000);
 		
-		driver.findElement(By.id("userName")).sendKeys("vigneshpalanisamy1969@gmail.com");
+		driver.findElement(By.id("userName")).sendKeys("vigneshsnapdeal@gmail.com");
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//button[text()='continue']")).click();
