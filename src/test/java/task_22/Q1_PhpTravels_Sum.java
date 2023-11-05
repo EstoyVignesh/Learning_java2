@@ -18,17 +18,15 @@ static WebDriver driver = null;
 		//Opening Chrome Driver
 		driver = new ChromeDriver(); 
 		
-		//Navigate to Snapdeal website
+		//Navigate to Php travels website
 		driver.get("https://phptravels.com/demo/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		
-		Thread.sleep(2000);
-		
-		//WebElement name1 = driver.findElement(By.name("first_name"));
-		//name1.sendKeys("Vignesh");
-		Thread.sleep(2000);
 				
+		Thread.sleep(2000);
+			
+		//Locating and Write Values in the Elements
 		driver.findElement(By.name("first_name")).sendKeys("Vignesh");
 		
 		driver.findElement(By.name("last_name")).sendKeys("Palanisamy");
@@ -37,11 +35,12 @@ static WebDriver driver = null;
 		
 		driver.findElement(By.xpath("//input[@class='email form-control']")).sendKeys("Vigneshphptravels@gmail.com");	
 		
-		
+		//Locating the Element and Getting Text using the getText Method
 		String num1 = driver.findElement(By.id("numb1")).getText();
 		
 		String num2 = driver.findElement(By.id("numb2")).getText();
 		
+		//Converting String Value into Integers using ParseInt Keyword
 		int no1 =Integer.parseInt(num1);
 		
 		int no2 =Integer.parseInt(num2);
